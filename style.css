@@ -7,13 +7,7 @@ body{
     font-family: 'Bona Nova', serif;
 }
 
-h2{
-    font-size: 40px;
-    padding:30px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-   
-}
+
 .section-container{
     background-image: url(images/food/Project\ Cover1.jpg);
     background-repeat: no-repeat;
@@ -21,6 +15,8 @@ h2{
     background-attachment: fixed;
     padding:50px;
 }
+
+/* header part start */
 header{
     display: flex;
     align-items: center;
@@ -62,6 +58,16 @@ header{
     font-size: 20px;
 
 }
+/* header part end */
+
+/* section one start(flex1) */
+
+.flex1{
+    display:flex;
+    align-items: center;
+    margin-top: 80px;  
+}
+
 h1{
     text-align: center;
     font-size: 50px;
@@ -69,10 +75,12 @@ h1{
     color:black;
 }
 
-.flex1{
-    display:flex;
-    align-items: center;
-    margin-top: 80px;  
+h2{
+    font-size: 40px;
+    padding:30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   
 }
 .half-width1{
     width:50%;
@@ -107,7 +115,10 @@ h1{
     margin-top: 5px;
     box-shadow: 5px 5px 25px tomato ;
 }
+/* section one end(flex1) */
 
+
+/* section two start(flex2) */
 .flex2{
     display:flex;
     align-items: center;
@@ -120,6 +131,25 @@ h1{
 #flex2-div2{
     margin-right: 150px;
 }
+
+/* section two end(flex2) */
+
+
+/* section three start(flex3) */
+#section3 #h3{
+    text-align: center;
+    padding:50px;
+    font-size: 30px;
+    color:whitesmoke;
+}
+
+#section3 #p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+
 .flex3{
     display: flex;
     padding:80px;
@@ -137,18 +167,7 @@ h1{
     border-image-slice: 1;
     
 }
-#section3 #h3{
-    text-align: center;
-    padding:50px;
-    font-size: 30px;
-    color:whitesmoke;
-}
-#section3 #p{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 900;
-    
-}
+
 .recepeies-flex img{
     width:100%;
 }
@@ -160,7 +179,10 @@ h1{
     padding:20px;
     color:tomato;
 }
+/* sectiion three end(flex3) */
 
+
+/* section four start(flex4) */
 .flex4{
     display:flex;
     padding:80px;
@@ -202,11 +224,14 @@ h1{
     box-shadow: 5px 5px 15px black;
     font-weight: bold;
 }
+/* section four end(flex4) */
+
 #hr1{
     padding:5px;
     background-color: black;
-    
 }
+
+/* section five start(flex5) */
 .flex5{
     display: flex;
     background-color: cornsilk;
@@ -215,6 +240,11 @@ h1{
     align-items: center;
 
 }
+
+.flex5-div{
+    width:33.33%;
+}
+
 .flex5 h1{
     font-size: 60px;
     text-align: center;
@@ -227,14 +257,14 @@ h1{
     padding-top: 10px;
     margin-left: 30px;
 }
-.flex5-div{
-    width:33.33%;
-}
+/* section five end(flex5) */
 #hr2{
     padding: 5px ;
     background-image:linear-gradient(to bottom,tomato,tomato);
     margin-top: 10px;
 }
+
+/* footer start */
 footer{
     background-color: black;
     padding:90px;
@@ -251,6 +281,8 @@ footer p{
     padding:30px;
     padding-bottom: 0px;
 }
+
+/* footer end */
 
 
 
