@@ -21,11 +21,58 @@ h2{
     background-attachment: fixed;
     padding:50px;
 }
+header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding:15px;
+    color:cornsilk;
+    position: fixed;
+    top:0px;
+    left:90px;
+    width: 100%;
+}
+.header-div{
+    width:40%;
+}
+.header-div2{
+    width:60%;
+}
+.header-div p{
+    display: inline;
+    color:tomato;
+    border:2px solid wheat;
+    border-radius: 80px 80px 20px 0px;
+    font-size: 20px;
+    padding:10px;
+    font-weight: bold;
+}
+
+.header-div2 ul{
+    text-align: center;
+    margin-left: 50px;
+
+}
+.header-div2 ul li{
+    display: inline-block;
+    color:cornsilk;
+    padding:30px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    font-size: 20px;
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:whitesmoke
+}
+
 .flex1{
     display:flex;
     align-items: center;
-    
-    
+    margin-top: 80px;  
 }
 .half-width1{
     width:50%;
@@ -70,8 +117,9 @@ h2{
     
 }
 
-
-
+#flex2-div2{
+    margin-right: 150px;
+}
 .flex3{
     display: flex;
     padding:80px;
@@ -79,11 +127,14 @@ h2{
 }
 .recepeies-flex{
     width:33%; 
-    box-shadow: 20px 20px 60px black; 
+    box-shadow: 30px 40px 60px black; 
     padding:30px;
     margin-left: 30px;  
     border-radius: 20px;
     background-color: whitesmoke;
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom, green,tomato);
+    border-image-slice: 1;
     
 }
 #section3 #h3{
@@ -109,11 +160,49 @@ h2{
     padding:20px;
     color:tomato;
 }
-.button2{
-    margin-left: 560px;
-}
 
 .flex4{
+    display:flex;
+    padding:80px;
+    align-items: center;
+}
+.flex4-div1{
+    display:inline-block;
+    width: 40%;
+}
+.flex4-div2{
+    width:60%;
+    background-color: tomato;
+    padding:50px;
+    margin-left: 200px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px black;
+
+    
+}
+.flex4-div2 form{
+    display: inline-block;
+   text-align: center;
+    width: 100%;
+}
+.label{
+    font-size: 30px;
+}
+.input-button{
+    padding:10px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.submit-button{
+    padding:10px;
+    width:100px;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    font-weight: bold;
+}
+.flex5{
     display: flex;
     background-color: cornsilk;
     padding:100px;
@@ -121,19 +210,19 @@ h2{
     align-items: center;
 
 }
-.flex4 h1{
+.flex5 h1{
     font-size: 60px;
     text-align: center;
     padding: 10px;
     
 }
-.flex4 p{
+.flex5 p{
     font-size: 20px;
     text-align: center;
     padding-top: 10px;
     margin-left: 30px;
 }
-.flex4-div{
+.flex5-div{
     width:33.33%;
 }
 footer{
