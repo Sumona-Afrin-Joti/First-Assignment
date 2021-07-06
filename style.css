@@ -1,0 +1,160 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bona Nova', serif;
+}
+
+h2{
+    font-size: 40px;
+    padding:30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   
+}
+.section-container{
+    background-image: url(images/food/Project\ Cover1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:50px;
+}
+.flex1{
+    display:flex;
+    align-items: center;
+    
+    
+}
+.half-width1{
+    width:50%;
+    padding:50px;
+}
+.half-width2{
+    width:50%;
+    padding-left: 150px;
+}
+.half-width2 img{
+    width:80%;
+    
+}
+.span1{
+    color:tomato;
+}
+.half-width1 p{
+    font-size: 20px;
+    padding:30px;
+    padding-top: 10px;
+}
+.button1{
+    text-decoration: none;
+    background-image: linear-gradient(to right,tomato,wheat, tomato);
+    padding:20px;
+    margin-left: 30px;
+    border-radius: 20px 50px;
+    color:black;
+    font-weight: 900;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 5px;
+    box-shadow: 5px 5px 25px tomato ;
+}
+
+.flex2{
+    display:flex;
+    align-items: center;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.flex3{
+    display: flex;
+    padding:80px;
+    margin-top: 30px;    
+}
+.recepeies-flex{
+    width:33%; 
+    box-shadow: 20px 20px 60px black; 
+    padding:30px;
+    margin-left: 30px;  
+    border-radius: 20px;
+    background-color: whitesmoke;
+    
+}
+#section3 #h3{
+    text-align: center;
+    padding:50px;
+    font-size: 30px;
+    color:whitesmoke;
+}
+#section3 #p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+.recepeies-flex img{
+    width:100%;
+}
+.recepeies-flex h3{
+    padding:20px;
+    font-size: 30px;
+}
+.recepeies-flex p{
+    padding:20px;
+    color:tomato;
+}
+.button2{
+    margin-left: 560px;
+}
+
+.flex4{
+    display: flex;
+    background-color: cornsilk;
+    padding:100px;
+    padding-top: 70px;
+    align-items: center;
+
+}
+.flex4 h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.flex4 p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.flex4-div{
+    width:33.33%;
+}
+footer{
+    background-color: black;
+    padding:90px;
+    padding-top: 60px;
+}
+footer h3{
+    color:gray;
+    text-align: center;
+  
+}
+footer p{
+    color:cornsilk;
+    text-align: center;
+    padding:30px;
+    padding-bottom: 0px;
+}
+hr{
+    padding: 1px ;
+    background-image:linear-gradient(to bottom,tomato,black);
+}
+
+
